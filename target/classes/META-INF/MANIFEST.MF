@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: jason
+Build-Jdk: 15.0.1
+Implementation-Title: Xyz
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.example.xyz
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/xyz
+Created-By: Maven Integration for Eclipse
+
