@@ -9,7 +9,7 @@ import com.xyz.service.PaymentService;
 public class PaymentServiceImpl implements PaymentService {
 
 	@Override
-	public String callHncbPay(String account, int amount) {
+	public String callHncbPay(String account, int amount) throws NullPointerException{
 		return "real";
 	}
 

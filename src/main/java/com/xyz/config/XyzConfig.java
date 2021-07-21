@@ -24,7 +24,7 @@ public class XyzConfig {
 	 */
 	@Profile("test")
 	@Bean
-	public MockPaymentServiceImpl getMockUserAcctBalaceService() {
+	public MockPaymentServiceImpl getMockPaymentService() {
 		logger.info("===MockPaymentService====");
 		return new MockPaymentServiceImpl();
 
@@ -36,7 +36,7 @@ public class XyzConfig {
 	 */
 	@Profile("dev")
 	@Bean
-	public PaymentServiceImpl getUserAcctBalaceService() {
+	public PaymentServiceImpl getPaymentService() {
 		logger.info("===PaymentService====");
 		return new PaymentServiceImpl();
 

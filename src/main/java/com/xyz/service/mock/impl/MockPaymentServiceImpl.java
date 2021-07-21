@@ -9,7 +9,7 @@ import com.xyz.service.PaymentService;
 public class MockPaymentServiceImpl implements PaymentService {
 
 	@Override
-	public String callHncbPay(String account, int amount) throws Exception{
+	public String callHncbPay(String account, int amount) throws NullPointerException{
 		
 		if("0001".equals(account)) {
 			return "Mock";

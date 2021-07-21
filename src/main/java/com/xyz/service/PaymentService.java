@@ -11,8 +11,8 @@ public interface PaymentService {
 	 * @param account
 	 * @param amount
 	 * @return String
-	 * @throws Exception 
+	 * @throws NullPointerException 
 	 */
-	public String callHncbPay(String account ,int amount) throws Exception;
+	public String callHncbPay(String account ,int amount) throws NullPointerException;
 
 }
